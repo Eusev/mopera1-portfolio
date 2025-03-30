@@ -1626,3 +1626,14 @@ section,
 .starter-section {
   /* Add your styles here */
 }
+.list-inline {
+  padding-left: 0;
+  list-style: none;
+}
+
+.list-inline-item {
+  display: inline-block;
+}
+.list-inline-item:not(:last-child) {
+  margin-right: 0.5rem;
+}
